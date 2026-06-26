@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge Portal - Register</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="register-box">
+
+            <!-- Logo -->
+
+            <header class="logo-section">
+
+                <img src="logo.png" alt="SkillBridge Logo" width="150" height="130">
+
+                <h2>SKILLBRIDGE PORTAL</h2>
+
+            </header>
+
+            <!-- Heading -->
+
+            <header class="title">
+
+                <h2>Create Account</h2>
+
+                <p>Let's get you started</p>
+
+            </header>
+
+            <!-- Register Form -->
+
+            <form id="registerForm">
+
+                <!-- Full Name -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        person
+                    </span>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        placeholder="Full Name">
+
+                </div>
+
+                <!-- Email -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        email
+                    </span>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Email Address">
+
+                </div>
+
+                <!-- Mobile -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        phone
+                    </span>
+
+                    <input
+                        type="text"
+                        id="mobile"
+                        placeholder="Mobile Number"
+                        maxlength="10">
+
+                </div>
+
+                <!-- Password -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        lock
+                    </span>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Password">
+
+                </div>
+
+                <!-- Confirm Password -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        lock
+                    </span>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm Password">
+
+                </div>
+
+                <!-- Error Message -->
+
+                <p id="registerError" class="error"></p>
+
+                <!-- Register Button -->
+
+                <button
+                    type="button"
+                    class="btn"
+                    onclick="registerUser()">
+
+                    Sign Up
+
+                </button>
+
+            </form>
+
+            <!-- Login Link -->
+
+            <footer class="bottom-text">
+
+                Already have an account?
+
+                <a href="index.html">
+
+                    Login
+
+                </a>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge Portal- Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="login-box">
+
+            <!-- Logo -->
+           <header class="logo-section">
+
+                <img src="logo.png" alt="SkillBridge Logo" width="150" height="130">
+
+                <h2>SkillBridge Portal</h2>
+
+            </header>
+
+            <!-- Heading -->
+
+            <header class="title">
+
+                <h2>Welcome Back</h2>
+
+                <p>Login to continue your journey</p>
+
+            </header>
+
+            <!-- Login Form -->
+
+            <form id="loginForm">
+
+                <!-- Email -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        email
+                    </span>
+
+                    <input
+                        type="email"
+                        id="loginEmail"
+                        placeholder="Email Address"
+                    >
+
+                </div>
+
+                <!-- Password -->
+
+                <div class="input-box">
+
+                    <span class="material-icons icon">
+                        lock
+                    </span>
+
+                    <input
+                        type="password"
+                        id="loginPassword"
+                        placeholder="Password"
+                    >
+
+                </div>
+
+                <!-- Error Message -->
+
+                <p id="loginError" class="error"></p>
+
+                <!-- Login Button -->
+
+                <button
+                    type="button"
+                    class="btn"
+                    onclick="loginUser()">
+
+                    Login
+
+                </button>
+
+            </form>
+
+            <!-- Register -->
+
+            <footer class="bottom-text">
+
+                Don't have an account?
+
+                <a href="register.html">
+
+                    Register
+
+                </a>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
